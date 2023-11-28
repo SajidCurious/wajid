@@ -55,8 +55,9 @@ export const skills = [
       },
     ],
   },
+
   {
-    title: "Backend",
+    title: "Others",
     skills: [
       {
         name: "Node Js",
@@ -72,12 +73,6 @@ export const skills = [
         name: "Firebase",
         image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
       },
-    ],
-  },
-
-  {
-    title: "Others",
-    skills: [
       {
         name: "Git",
         image:
