@@ -1,4 +1,6 @@
 import React from "react";
+import { skills } from "../../data/constants";
+
 import {
   Container,
   Wrapper,
@@ -13,7 +15,32 @@ import {
 } from "./Style";
 
 const Skills = () => {
-  return <div>Skills</div>;
+  return (
+    <Container id="skills">
+      <Wrapper>
+        <Title>Skills</Title>
+        <Desc>
+          Here are some of my skills on which I have been working on for the
+          past 1 year.
+        </Desc>
+        <SkillsContainer>
+          {skills.map((skill) => (
+            <Skill key={skill.title}>
+              <SkillTitle>{skill.title}</SkillTitle>
+              <SkillList>
+                {skill.skills.map((item) => (
+                  <SkillItem key={item.image}>
+                    <SkillImage src={item.image} />
+                    {item.name}
+                  </SkillItem>
+                ))}
+              </SkillList>
+            </Skill>
+          ))}
+        </SkillsContainer>
+      </Wrapper>
+    </Container>
+  );
 };
 
 export default Skills;
