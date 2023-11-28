@@ -1,7 +1,6 @@
-import React from "react";
 import styled from "styled-components";
 
-const Container = styled.div`
+export const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,7 +9,7 @@ const Container = styled.div`
   align-items: center;
 `;
 
-const Wrapper = styled.div`
+export const Wrapper = styled.div`
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -46,7 +45,7 @@ export const Desc = styled.div`
   }
 `;
 
-const SkillsContainer = styled.div`
+export const SkillsContainer = styled.div`
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -55,7 +54,7 @@ const SkillsContainer = styled.div`
   justify-content: center;
 `;
 
-const Skill = styled.div`
+export const Skill = styled.div`
   width: 100%;
   max-width: 500px;
   background: ${({ theme }) => theme.card};
@@ -73,7 +72,7 @@ const Skill = styled.div`
   }
 `;
 
-const SkillTitle = styled.h2`
+export const SkillTitle = styled.h2`
   font-size: 28px;
   font-weight: 600;
   color: ${({ theme }) => theme.text_secondary};
@@ -81,7 +80,7 @@ const SkillTitle = styled.h2`
   text-align: center;
 `;
 
-const SkillList = styled.div`
+export const SkillList = styled.div`
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -89,7 +88,7 @@ const SkillList = styled.div`
   margin-bottom: 20px;
 `;
 
-const SkillItem = styled.div`
+export const SkillItem = styled.div`
   font-size: 16px;
   font-weight: 400;
   color: ${({ theme }) => theme.text_primary + 80};
@@ -110,7 +109,7 @@ const SkillItem = styled.div`
   }
 `;
 
-const SkillImage = styled.img`
+export const SkillImage = styled.img`
   width: 24px;
   height: 24px;
 `;
