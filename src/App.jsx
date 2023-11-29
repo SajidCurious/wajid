@@ -8,6 +8,7 @@ import Skills from "./components/Skills/Skills.jsx";
 import Education from "./components/Education/Education.jsx";
 import { BrowserRouter as Router } from "react-router-dom";
 import Projects from "./components/Projects/Projects.jsx";
+import { useState } from "react";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
