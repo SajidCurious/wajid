@@ -120,7 +120,7 @@ const Avatar = styled.img`
   border: 3px solid ${({ theme }) => theme.card};
 `;
 
-const ProjectCards = ({ project, setOpenModal }) => {
+const ProjectCard = ({ project, setOpenModal }) => {
   return (
     <Card onClick={() => setOpenModal({ state: true, project: project })}>
       <Image src={project.image} />
@@ -144,4 +144,4 @@ const ProjectCards = ({ project, setOpenModal }) => {
   );
 };
 
-export default ProjectCards;
+export default ProjectCard;
