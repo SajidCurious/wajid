@@ -252,24 +252,11 @@ export const education = [
 export const projects = [
   {
     id: 1,
-    title: "Trackify",
-    date: "Jun 2023 - Jul 2023",
+    title: "StarFlix",
     description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
+      "StarFlix is and Entertainment Information platform for TV Shows and Movies. Users can check Trending, Popular, Top-Rated Movies and TV Shows. On clicking on any movie user can see all the information regarding that movie like cast, runtime, overview, director etc. User can also watch trailer of the specific movie and the platform recommends the same genre movies.",
     image: `${starFlix}`,
-    tags: [
-      "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
-      "CI/CD",
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-    ],
+    tags: ["React Js", "Redux", "SCSS"],
     category: "web app",
     github: "https://github.com/rishavchanda/Trackify",
     webapp: "https://trackify.duckdns.org",
