@@ -251,7 +251,7 @@ export const education = [
 
 export const projects = [
   {
-    id: 9,
+    id: 1,
     title: "Trackify",
     date: "Jun 2023 - Jul 2023",
     description:
@@ -275,7 +275,7 @@ export const projects = [
     webapp: "https://trackify.duckdns.org",
   },
   {
-    id: 0,
+    id: 2,
     title: "Podstream",
     date: "Apr 2023 - May 2023",
     description:
@@ -287,7 +287,7 @@ export const projects = [
     webapp: "https://podstream.netlify.app/",
   },
   {
-    id: 1,
+    id: 3,
     title: "Vexa",
     date: "Oct 2022 - Present",
     description:
@@ -306,7 +306,7 @@ export const projects = [
     webapp: "https://vexa-app.netlify.app/",
   },
   {
-    id: 2,
+    id: 4,
     title: "Brain Tumor Detection",
     date: "Jan 2023 - Mar 2023",
     description:
