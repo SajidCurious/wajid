@@ -18,6 +18,9 @@ const Button = styled.button`
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.8s ease-in-out;
+  &:hover {
+    transform: scale(1.08);
+  }
 `;
 const Card = styled.div`
   width: 330px;
