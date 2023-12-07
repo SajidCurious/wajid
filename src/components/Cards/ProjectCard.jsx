@@ -3,23 +3,32 @@ import styled from "styled-components";
 
 const Buttons = styled.div`
   display: flex;
-  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
   background-color: ${({ theme }) => theme.card};
   margin: 20px 0px;
 `;
-const Button = styled.button`
-  width: 50%;
+const Button = styled.a`
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  width: 40%;
   padding: 10px 5px;
   background: ${({ theme }) => theme.primary};
   color: ${({ theme }) => theme.white};
+  cursor: pointer;
   font-size: 14px;
-  font-weight: 700;
-  border: none;
+  font-weight: 600;
+  text-decoration: none;
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.8s ease-in-out;
   &:hover {
-    transform: scale(1.08);
+    border-radius: 10px;
+    color: ${({ theme }) => theme.primary};
+    border: 1.8px solid ${({ theme }) => theme.primary};
+    background: none;
   }
 `;
 const Card = styled.div`
@@ -37,7 +46,6 @@ const Card = styled.div`
   &:hover {
     transform: translateY(-10px);
     box-shadow: 0 0 50px 4px rgba(0, 0, 0, 0.6);
-    filter: brightness(1.1);
   }
 `;
 
@@ -99,7 +107,7 @@ const Description = styled.div`
   text-overflow: ellipsis;
 `;
 
-const ProjectCard = ({ project, setOpenModal }) => {
+const ProjectCard = ({ project }) => {
   return (
     <Card>
       <Image src={project.image} />
@@ -112,8 +120,12 @@ const ProjectCard = ({ project, setOpenModal }) => {
         <Title>{project.title}</Title>
         <Description>{project.description}</Description>
         <Buttons>
-          <Button>Live Project</Button>
-          <Button>View Code</Button>
+          <Button href={project.webapp} target="_blank">
+            Live Project
+          </Button>
+          <Button href={project.github} target="_blank">
+            View Code
+          </Button>
         </Buttons>
       </Details>
     </Card>
