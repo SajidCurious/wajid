@@ -131,14 +131,10 @@ const ProjectCard = ({ project, setOpenModal }) => {
       </Tags>
       <Details>
         <Title>{project.title}</Title>
-        <Date>{project.date}</Date>
         <Description>{project.description}</Description>
+        <Button>dsdf</Button>
       </Details>
-      <Members>
-        {project.member?.map((member) => (
-          <Avatar src={member.img} />
-        ))}
-      </Members>
+
       {/* <Button>View Project</Button> */}
     </Card>
   );
