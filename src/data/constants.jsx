@@ -2,6 +2,9 @@ import starFlix from "/starFlix.png";
 import shoeStore from "/shoeStore.png";
 import starTube from "/starTube.png";
 import shazamSearch from "/shazamSearch.png";
+import isl from "/isl.jpeg";
+import ssgpt from "/ssgpt.jpeg";
+import tmreis from "/tmreis.jpeg";
 
 export const Bio = {
   name: "Mohammed Sajid",
@@ -117,36 +120,37 @@ export const skills = [
 export const education = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
-    school: "Kalinga Institute of Industrial Technology, Bhubaneswar",
-    date: "Oct 2021 - Sep 2025",
-    grade: "8.71 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
-    degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+    img: `${isl}`,
+    school: "ISL Engineering College, Hyderabad",
+    date: "Oct 2020 - Sep 2023",
+    grade: "8.0 CGPA",
+    desc: "I completed my Bachelor's degree in Information Technology at ISL Engineering College, Hyderabad. I have completed 6 semesters and got a CGPA of 8.0 . I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
+    degree:
+      "Bachelor of Technology - BTech, Information Technology and Computers",
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: "Methodist School, Dankuni",
-    date: "Apr 2019 - Apr 2025",
-    grade: "88.2%",
-    desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
-    degree: "ISC(XII), Science with Computer",
+    img: `${ssgpt}`,
+    school: "Sri Sangameshwara Polytechnic, Zaheerabad",
+    date: "Apr 2017 - Aug 2020",
+    grade: "85%",
+    desc: "I completed my class 13 high school education at SSGPT, Zaheerabad, where I studied Computer Science.",
+    degree: "ISC(XIII), Mechanical Engineering",
   },
   {
     id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: "Methodist School, Dankuni",
-    date: "Apr 2017 - Apr 2019",
-    grade: "92.3%",
-    desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
-    degree: "ICSC(X), Science with Computer",
+    img: `${tmreis}`,
+    school: "Telangana Residential School, Hyderabad",
+    date: "2013 - 2017",
+    grade: "97%",
+    desc: "I completed my class X education at Telangana Residential School, Hyderabad, where I studied Science with Computer Application.",
+    degree: "SSC(X), Science with Computer",
   },
 ];
 
 export const projects = [
   {
-    id: 1,
+    id: 0,
     title: "StarFlix",
     description:
       "StarFlix is an Entertainment Information platform for TV Shows and Movies. Users can check Trending, Popular, Top-Rated, Movies and TV Shows. On clicking on any movie user can see all the information like cast, runtime, overview, director etc. User can also watch trailer of the specific movie and the platform recommends the same genre movies.",
@@ -156,7 +160,7 @@ export const projects = [
     webapp: "https://starflix-five.vercel.app/",
   },
   {
-    id: 2,
+    id: 1,
     title: "SHOOZIE",
     description:
       "Shoozie is an online shoe shopping platform. Users can choose wide variety of shoes and can buy them. Every detail of the shoes are available. I also integrated sample stripe payment method.",
@@ -166,7 +170,7 @@ export const projects = [
     webapp: "https://shoe-store-orcin.vercel.app/",
   },
   {
-    id: 3,
+    id: 2,
     title: "StarTube",
     description:
       "StarTube is the Media platform, where users can watch different types of videos according to their interests. Users have different options to watch videos like Trending, Music, Films, Gaming, News, Sports, Live.",
@@ -176,7 +180,7 @@ export const projects = [
     webapp: "https://startube-roan.vercel.app/",
   },
   {
-    id: 4,
+    id: 3,
     title: "Shazam Search",
     description:
       "Shazam is a Search engine. Users can search for any information. Results will be in the form of websites, Images, News, Videos, Shopping etc.",
