@@ -9,6 +9,7 @@ import Education from "./components/Education/Education.jsx";
 import { BrowserRouter as Router } from "react-router-dom";
 import Projects from "./components/Projects/Projects.jsx";
 import { useState } from "react";
+import Contact from "./components/Contact/Contact.jsx";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -45,6 +46,7 @@ function App() {
             <Skills />
             <Projects openModal={openModal} setOpenModal={setOpenModal} />
             <Education />
+            <Contact />
           </Wrapper>
         </Body>
       </Router>
