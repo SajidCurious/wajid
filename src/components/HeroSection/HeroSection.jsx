@@ -13,7 +13,7 @@ import {
   SubTitle,
   ResumeButton,
 } from "./Style";
-import HeroImg from "/HeroImage.jpg";
+import HeroImg from "/HeroImage.png";
 import Typewriter from "typewriter-effect";
 import { Bio } from "../../data/constants";
 
@@ -30,7 +30,7 @@ const HeroSection = () => {
               Hi, I am <br /> {Bio.name}
             </Title>
             <TextLoop>
-              I am a
+              A
               <Span>
                 <Typewriter
                   options={{

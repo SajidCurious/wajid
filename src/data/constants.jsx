@@ -10,12 +10,13 @@ export const Bio = {
   name: "Mohammed Sajid",
   roles: ["Frontend Developer", "Programmer"],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "Hi, I'm dedicated to the artistry of frontend development. My passion lies in sculpting digital landscapes through code and design. As a frontend developer, I orchestrate visually striking websites that harmonize aesthetics with functionality. I believe in the power of intuitive user experiences, and my work reflects that commitment.",
   github: "https://github.com/SajidCurious",
   resume:
     "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/sajidcurious/",
   twitter: "https://twitter.com/sajid_curious",
+  email: "https://mail.google.com/mail/u/2/#inbox",
 };
 
 export const skills = [

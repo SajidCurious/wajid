@@ -10,6 +10,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import Projects from "./components/Projects/Projects.jsx";
 import { useState } from "react";
 import Contact from "./components/Contact/Contact.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -49,6 +50,7 @@ function App() {
             <Contact />
           </Wrapper>
         </Body>
+        <Footer />
       </Router>
     </ThemeProvider>
   );

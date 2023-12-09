@@ -1,12 +1,42 @@
 import React from "react";
-import FacebookIcon from "@mui/icons-material/Facebook";
+import EmailIcon from "@mui/icons-material/Email";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import InstagramIcon from "@mui/icons-material/Instagram";
 import { Bio } from "../../data/constants";
+import {
+  FooterContainer,
+  FooterWrapper,
+  Logo,
+  Nav,
+  NavLink,
+  SocialMediaIcons,
+  SocialMediaIcon,
+  Copyright,
+} from "./Style";
 
 const Footer = () => {
-  return <div>Footer</div>;
+  return (
+    <FooterContainer>
+      <FooterWrapper>
+        <Logo>Mohammed Sajid</Logo>
+        <Nav>
+          <NavLink href="#about">About</NavLink>
+          <NavLink href="#skills">Skills</NavLink>
+          <NavLink href="#projects">Projects</NavLink>
+          <NavLink href="#education">Education</NavLink>
+        </Nav>
+        <SocialMediaIcons>
+          <SocialMediaIcon href={Bio.twitter} target="display">
+            <TwitterIcon />
+          </SocialMediaIcon>
+          <SocialMediaIcon href={Bio.linkedin} target="display">
+            <LinkedInIcon />
+          </SocialMediaIcon>
+        </SocialMediaIcons>
+        <Copyright>&copy; 2023 Mohammed Sajid. All rights reserved.</Copyright>
+      </FooterWrapper>
+    </FooterContainer>
+  );
 };
 
 export default Footer;
