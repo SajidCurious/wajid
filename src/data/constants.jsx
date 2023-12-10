@@ -8,7 +8,7 @@ import tmreis from "/tmreis.jpeg";
 
 export const Bio = {
   name: "Mohammed Sajid",
-  roles: ["Frontend Developer", "Programmer"],
+  roles: ["Frontend Developer", "Programmer", "Content Creator"],
   description:
     "Hi, I'm dedicated to the artistry of frontend development. My passion lies in sculpting digital landscapes through code and design. As a frontend developer, I orchestrate visually striking websites that harmonize aesthetics with functionality. I believe in the power of intuitive user experiences, and my work reflects that commitment.",
   github: "https://github.com/SajidCurious",
