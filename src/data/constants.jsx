@@ -13,7 +13,7 @@ export const Bio = {
     "Hi, I'm dedicated to the artistry of frontend development. My passion lies in sculpting digital landscapes through code and design. As a frontend developer, I orchestrate visually striking websites that harmonize aesthetics with functionality. I believe in the power of intuitive user experiences, and my work reflects that commitment.",
   github: "https://github.com/SajidCurious",
   resume:
-    "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
+    "https://drive.google.com/file/d/1A_9JIg7mEy2B92yCBMv4YbV9dYM3TrSF/view?usp=drivesdk",
   linkedin: "https://www.linkedin.com/in/sajidcurious/",
   twitter: "https://twitter.com/sajid_curious",
   email: "https://mail.google.com/mail/u/2/#inbox",
