@@ -158,7 +158,7 @@ export const projects = [
     image: `${starFlix}`,
     tags: ["React Js", "Redux", "SCSS", "Tailwind CSS"],
     github: "https://github.com/SajidCurious/starflix",
-    webapp: "https://starflix-five.vercel.app/",
+    webapp: "https://starflix9.vercel.app/",
   },
   {
     id: 1,
@@ -168,7 +168,7 @@ export const projects = [
     image: `${shoeStore}`,
     tags: ["Next Js", "Redux", "Tailwind CSS", "Strapi"],
     github: "https://github.com/SajidCurious/shoe-store",
-    webapp: "https://shoe-store-orcin.vercel.app/",
+    webapp: "https://shoozie.vercel.app/",
   },
   {
     id: 2,
@@ -178,7 +178,7 @@ export const projects = [
     image: `${starTube}`,
     tags: ["React Js", "Redux", "Tailwind CSS", "Vite"],
     github: "https://github.com/SajidCurious/startube",
-    webapp: "https://startube-roan.vercel.app/",
+    webapp: "https://startube9.vercel.app/",
   },
   {
     id: 3,
@@ -188,7 +188,7 @@ export const projects = [
     image: `${shazamSearch}`,
     tags: ["React Js", "Tailwind CSS", "Vite"],
     github: "https://github.com/SajidCurious/Shazam-Search",
-    webapp: "https://shazam-search.vercel.app/",
+    webapp: "https://shazamsearch.vercel.app/",
   },
 ];
 
