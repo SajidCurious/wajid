@@ -55,6 +55,9 @@ const Navbar = () => {
           <GitHubButton href={Bio.github} target="_blank">
             LinkedIn
           </GitHubButton>
+          <GitHubButton href={Bio.gmail} target="_blank">
+            Contact Me
+          </GitHubButton>
         </ButtonContainer>
         {isOpen && (
           <MobileMenu isOpen={isOpen}>
@@ -102,6 +105,18 @@ const Navbar = () => {
               target="_blank"
             >
               LinkedIn
+            </GitHubButton>
+            <GitHubButton
+              style={{
+                padding: "10px 16px",
+                background: `${theme.primary}`,
+                color: "white",
+                width: "max-content",
+              }}
+              href={Bio.gmail}
+              target="_blank"
+            >
+              Contact ME
             </GitHubButton>
           </MobileMenu>
         )}

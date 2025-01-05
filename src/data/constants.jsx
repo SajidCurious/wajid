@@ -14,7 +14,8 @@ export const Bio = {
   resume:
     "https://drive.google.com/file/d/1HeP3lah1qzOJKOpYTqx0AWEdaX-YLxPo/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/mohammed-wajid-69639a254/",
-  twitter: "https://twitter.com/sajid_curious"
+  // twitter: "https://twitter.com/sajid_curious",
+  gmail: "mailto:wajid17023@gmail.com?subject=Hello&body=Hi, I would like to connect with you."
 };
 
 export const skills = [
