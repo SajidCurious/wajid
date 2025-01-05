@@ -119,14 +119,14 @@ const ProjectCard = ({ project }) => {
       <Details>
         <Title>{project.title}</Title>
         <Description>{project.description}</Description>
-        <Buttons>
+        {/* <Buttons>
           <Button href={project.webapp} target="_blank">
             Live Project
           </Button>
           <Button href={project.github} target="_blank">
             View Code
           </Button>
-        </Buttons>
+        </Buttons> */}
       </Details>
     </Card>
   );

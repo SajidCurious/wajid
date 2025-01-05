@@ -135,8 +135,8 @@ export const projects = [
     //   "StarFlix is an Entertainment Information platform for TV Shows and Movies. Users can check Trending, Popular, Top-Rated, Movies and TV Shows. On clicking on any movie user can see all the information like cast, runtime, overview, director etc. User can also watch trailer of the specific movie and the platform recommends the same genre movies.",
     image: `${starFlix}`,
     // tags: ["React Js", "Redux", "SCSS", "Tailwind CSS"],
-    github: "https://github.com/SajidCurious/starflix",
-    webapp: "https://starflix9.vercel.app/",
+    // github: "https://github.com/SajidCurious/starflix",
+    // webapp: "https://starflix9.vercel.app/",
   },
   {
     id: 1,
@@ -145,8 +145,8 @@ export const projects = [
     //   "Shoozie is an online shoe shopping platform. Users can choose wide variety of shoes and can buy them. Every detail of the shoes are available. I also integrated sample stripe payment method.",
     image: `${shoeStore}`,
     // tags: ["Next Js", "Redux", "Tailwind CSS", "Strapi"],
-    github: "https://github.com/SajidCurious/shoe-store",
-    webapp: "https://shoozie.vercel.app/",
+    // github: "https://github.com/SajidCurious/shoe-store",
+    // webapp: "https://shoozie.vercel.app/",
   },
   {
     id: 2,
@@ -155,8 +155,8 @@ export const projects = [
     //   "StarTube is the Media platform, where users can watch different types of videos according to their interests. Users have different options to watch videos like Trending, Music, Films, Gaming, News, Sports, Live.",
     image: `${starTube}`,
     // tags: ["React Js", "Redux", "Tailwind CSS", "Vite"],
-    github: "https://github.com/SajidCurious/startube",
-    webapp: "https://startube9.vercel.app/",
+    // github: "https://github.com/SajidCurious/startube",
+    // webapp: "https://startube9.vercel.app/",
   }
 ];
 
