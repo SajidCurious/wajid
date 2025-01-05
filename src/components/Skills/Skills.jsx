@@ -11,7 +11,7 @@ import {
   SkillTitle,
   SkillList,
   SkillItem,
-  SkillImage,
+  // SkillImage,
 } from "./Style";
 
 const Skills = () => {
@@ -21,7 +21,7 @@ const Skills = () => {
         <Title>Skills</Title>
         <Desc>
           Here are some of my skills on which I have been working on for the
-          past 1 year.
+          past 2 years.
         </Desc>
         <SkillsContainer>
           {skills.map((skill) => (
@@ -30,7 +30,7 @@ const Skills = () => {
               <SkillList>
                 {skill.skills.map((item) => (
                   <SkillItem key={item.image}>
-                    <SkillImage src={item.image} />
+                    {/* <SkillImage src={item.image} /> */}
                     {item.name}
                   </SkillItem>
                 ))}

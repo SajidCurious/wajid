@@ -9,7 +9,7 @@ const Projects = ({ openModal, setOpenModal }) => {
       <Wrapper>
         <Title>Projects</Title>
         <Desc>
-          I have worked on Frontend projects. Here are some of my projects.
+          I've collaborated with various brands. Here are some of my Collaborations.
         </Desc>
         <CardContainer>
           {projects.map((project) => (

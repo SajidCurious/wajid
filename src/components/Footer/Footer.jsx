@@ -18,7 +18,7 @@ const Footer = () => {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Mohammed Sajid</Logo>
+        <Logo>Mohammed Wajid</Logo>
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
@@ -33,7 +33,7 @@ const Footer = () => {
             <LinkedInIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>&copy; 2023 Mohammed Sajid. All rights reserved.</Copyright>
+        <Copyright>&copy; 2023 Mohammed Wajid. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );

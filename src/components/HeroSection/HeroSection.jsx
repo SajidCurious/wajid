@@ -13,7 +13,7 @@ import {
   SubTitle,
   ResumeButton,
 } from "./Style";
-import HeroImg from "/HeroImage.png";
+import wajid from "/wajid.jpg";
 import Typewriter from "typewriter-effect";
 import { Bio } from "../../data/constants";
 
@@ -48,7 +48,7 @@ const HeroSection = () => {
           </HeroLeftContainer>
 
           <HeroRightContainer id="Right">
-            <Img src={HeroImg} alt="hero-image" />
+            <Img src={wajid} alt="hero-image" />
           </HeroRightContainer>
         </HeroInnerContainer>
       </HeroContainer>
