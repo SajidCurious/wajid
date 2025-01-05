@@ -101,7 +101,7 @@ const Navbar = () => {
               href={Bio.github}
               target="_blank"
             >
-              Github Profile
+              LinkedIn
             </GitHubButton>
           </MobileMenu>
         )}
