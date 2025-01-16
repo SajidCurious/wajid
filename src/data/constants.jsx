@@ -12,7 +12,7 @@ export const Bio = {
     "Experienced professional with expertise in content writing and social media management with 56K followers on LinkedIn. My specialization includes creating and managing engaging content, building online communities, collaborating with various companies to enhance brand visibility. Skilled in creating content for brands and organizations with handling administrative tasks such as scheduling , customer support and research. Freelancing for the past two years, bringing a strong work ethic, adaptability and the ability to efficiently manage multiple responsibilities.",
   github: "https://www.linkedin.com/in/mohammed-wajid-69639a254/",
   resume:
-    "https://drive.google.com/file/d/1HeP3lah1qzOJKOpYTqx0AWEdaX-YLxPo/view?usp=sharing",
+    "https://drive.google.com/file/d/1NcXutt1QVN6Hyb1QFSXJBgSh5du2hWee/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/mohammed-wajid-69639a254/",
   // twitter: "https://twitter.com/sajid_curious",
   gmail: "mailto:wajid17023@gmail.com?subject=Hello&body=Hi, I would like to connect with you."
